@@ -1,0 +1,68 @@
+$32=1
+(TracingTest Gcode Generator-V2)
+(Focus Test - Draw 11 lines with a Z axis step)
+(Power for Lines 200, Feed 300)
+(Power for reference marks 350, Feed 300)
+(Line Height 10, Spacing 2, Z Step 1 mm)
+G94
+G17
+G21
+G90
+G0 X0 Y0 
+G91
+M3
+F300
+S350
+(Draw Reference Marks)
+G1 Y1
+G0 X2 Y-1
+G1 Y1
+G0 X2 Y-1
+G1 Y1
+G0 X2 Y-1
+G1 Y1
+G0 X2 Y-1
+G1 Y1
+G0 X2 Y-2
+G1 Y2
+G0 X2 Y-1
+G1 Y1
+G0 X2 Y-1
+G1 Y1
+G0 X2 Y-1
+G1 Y1
+G0 X2 Y-1
+G1 Y1
+G0 X2 Y-1
+G1 Y1
+G90
+G0 X0 Y2
+G91
+G0 Z-5
+S200
+G1 Y10
+G0 X2 Y-10 Z1
+G1 Y10
+G0 X2 Y-10 Z1
+G1 Y10
+G0 X2 Y-10 Z1
+G1 Y10
+G0 X2 Y-10 Z1
+G1 Y10
+G0 X2 Y-10 Z1
+G1 Y10
+G0 X2 Y-10 Z1
+G1 Y10
+G0 X2 Y-10 Z1
+G1 Y10
+G0 X2 Y-10 Z1
+G1 Y10
+G0 X2 Y-10 Z1
+G1 Y10
+G0 X2 Y-10 Z1
+G1 Y10
+G0 Z-5
+G90
+G0 X0 Y0
+M2
+(END OF PROGRAM)

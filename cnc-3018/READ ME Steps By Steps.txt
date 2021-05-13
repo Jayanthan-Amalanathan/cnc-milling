@@ -1,0 +1,16 @@
+Please Download all the files on your computer:
+1. Refer to "3018  Assembly Instructions.doc", assemble you engraver;
+2. Plug the machine in, connect control board to computer;
+3. Open the folder "Driver", click the "CH340SER.EXE" £¬ then install referring to the pic;
+4. Open the folder "grblControl_0.8.1", click "grblControl.exe". Read "Get A Quickstart To grblControl Software.pdf", get a quickstart;
+5. Start to engrave something.
+
+
+
+
+When Engraving:
+1. After adjusting the machine, open the engraving file to check where the zero point is, usually at the lower left corner.
+2. Locate the machine to the lower left corner of the workpiece first, then lower the cutter and the spindle must be turned on. Slow it down when the cutter is close to the workpiece, gently adjust it to the surface. 
+3. Important! After lowering the cutter, click "XY zero " and "Z zero". Then you can click "start" to engrave. 
+
+Tips: It is better to run the machine without any workpiece first. Test it before you start formal engraving. 
